@@ -1,0 +1,40 @@
+export const pizzasList = {
+  personalized: {
+    title: 'Personalizada',
+    base: {
+      id: 999,
+      img: '',
+      name: 'masa base',
+      price: 10000,
+    },
+    ingredients: [
+      { id: 1, img: '', name: 'peperoni', price: 4500 },
+      { id: 2, img: '', name: 'pollo', price: 5000 },
+      { id: 3, img: '', name: 'queso azul', price: 3000 },
+      { id: 4, img: '', name: 'jamon', price: 3000 },
+      { id: 5, img: '', name: 'piña', price: 3000 },
+      { id: 6, img: '', name: 'queso', price: 3000 },
+      { id: 8, img: '', name: 'fruta', price: 3000 },
+      { id: 9, img: '', name: 'chorizo', price: 3000 },
+      { id: 10, img: '', name: 'chicharron', price: 3000 },
+      { id: 11, img: '', name: 'maduritos', price: 3000 },
+      { id: 12, img: '', name: 'salami', price: 3000 },
+      { id: 13, img: '', name: 'aceitunas', price: 3000 },
+      { id: 14, img: '', name: 'maiz', price: 3000 },
+      { id: 15, img: '', name: 'jalapeños', price: 3000 },
+      { id: 16, img: '', name: 'tomate', price: 3000 },
+      { id: 17, img: '', name: 'huevo', price: 3000 },
+      { id: 18, img: '', name: 'albaca', price: 3000 },
+      { id: 19, img: '', name: 'tocineta', price: 3000 },
+    ],
+  },
+  suggested: {
+    title: 'Sugeridas',
+    options: [
+      { id: 101, img: '', name: 'Hawaiana', price: 30000 },
+      { id: 102, img: '', name: 'Napolitana', price: 35000 },
+      { id: 103, img: '', name: 'Carnes', price: 38000 },
+      { id: 104, img: '', name: 'De la casa', price: 40000 },
+    ],
+  },
+}
